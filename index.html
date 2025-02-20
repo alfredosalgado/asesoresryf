@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Asesorias RyF</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body>
+    <header class="bg-dark text-light container-flex">
+      <div class="container d-flex flex-wrap py-2 justify-content-around aparicion text-barlowc">
+        <div>
+          <p><i class="fa-solid fa-phone"></i>  +56 9 55310518</p>
+        </div>
+        <div>
+          <p><i class="fa-solid fa-envelope"></i> Contacto@asesoresryf.com</p>
+        </div>
+      </div>
+      <nav class="bg-dark pb-4">
+        <div class="container d-flex justify-content-around align-items-center">
+          <a class="navbar-brand py-2 logoanimacion aparicion" href="./index.html">
+            <img src="./assets/img/logo.png" class="rounded-circle" alt="Bootstrap" width="130" height="130">
+          </a>
+        </div>
+      </nav>
+    </header>
+    <nav class="navbar navbar-expand-lg bg-ryf sha">
+      <div class="container-fluid">
+        <!-- Botón hamburguesa alineado a la derecha -->
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Contenedor de los enlaces, alineado a la derecha -->
+        <div class="collapse navbar-collapse ms-auto" id="navbarNavAltMarkup">
+          <div class="navbar-nav w-100 d-flex justify-content-around text-barlow">
+            <a class="nav-link" aria-current="page" href="#nos">Sobre nosotros</a>
+            
+            <!-- Dropdown para Ramos de Flores -->
+            <div class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="./productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Arreglos Florales
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./productos.html">Todos los Ramos</a></li>
+                <li><a class="dropdown-item" href="./arreglosfunebres.html">Arreglos Fúnebres</a></li>
+              </ul>
+            </div>
+    
+            <a class="nav-link" href="./pf.html">Preguntas frecuentes</a>
+            <a class="nav-link" href="./contacto.html">Contacto</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="10000" data-bs-pause="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="image-container">
+            <img src="./assets/img/portada/1.1.jpg" class="d-block w-100 img1" alt="Flor 1">
+            <div class="carousel-caption-container">
+              <div class="carousel-caption">
+                <p class="bg-darkk rounded px-5">TE AYUDAMOS A gestionar tu seguro asociado AL CREDITO hipotecario DE TU VIVIENDA</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="image-container">
+            <img src="./assets/img/portada/2.png" class="d-block w-100 img1" alt="Flor 2">
+            <div class="carousel-caption-container">
+              <div class="carousel-caption">
+                <p class="bg-darkk rounded px-5">Si estas pagando tu dividendo tienes derecho a ser indemnizado por sismo, rotura de cañeria e incendio.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="image-container">
+            <img src="./assets/img/portada/3.webp" class="d-block w-100 img1" alt="Flor 3">
+            <div class="carousel-caption-container">
+              <div class="carousel-caption">
+                <p class="bg-darkk rounded px-5">En Asesores RyF te podemos asesorar sin costo anticipado, LLAMANOS +56955310518</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="pt-3"></div>
+    <div class="d-flex justify-content-center bgrosado">
+      <i class="fa-solid fa-screwdriver-wrench fa-shake fa-3x d-flex justify-content-center w-25 text-dark pt-3"></i>
+    </div>
+      <h2 class="text-center display-3 pt-4 pb-2 mb-0 text-barlow titulo-animado">
+        ¿QUÉ ES POSIBLE REPARAR?
+      </h2>
+      <p class="px-5 text-barlowc texto-fade display-6 text-center pb-2">Podrás reparar distintos daños provocados por el sismo, entre ellos se encuentran:</p>
+      <main class="container">
+        <div class="row justify-content-center align-items-center g-3" id="product-container">
+
+          <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
+            <div class="card">
+              <img src="./assets/img/rep/fachadas.svg" class="card-img-top im" alt="${product.title}">
+              <div class="card-body pt-0">
+                <h5 class="card-title tituloc text-center">Fachada</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
+            <div class="card">
+              <img src="./assets/img/rep/techos.svg" class="card-img-top im" alt="${product.title}">
+              <div class="card-body pt-0">
+                <h5 class="card-title tituloc text-center">Techos</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
+            <div class="card">
+              <img src="./assets/img/rep/panderetas.svg" class="card-img-top im" alt="${product.title}">
+              <div class="card-body pt-0">
+                <h5 class="card-title tituloc text-center">Panderetas</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
+            <div class="card">
+              <img src="./assets/img/rep/muros.svg" class="card-img-top im" alt="${product.title}">
+              <div class="card-body pt-0">
+                <h5 class="card-title tituloc text-center">Muros</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
+            <div class="card">
+              <img src="./assets/img/rep/ceramicos.svg" class="card-img-top im" alt="${product.title}">
+              <div class="card-body pt-0">
+                <h5 class="card-title tituloc text-center">Ceramicos</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
+            <div class="card">
+              <img src="./assets/img/rep/molduras.svg" class="card-img-top im" alt="${product.title}">
+              <div class="card-body pt-0">
+                <h5 class="card-title tituloc text-center">Molduras</h5>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </main>
+      <div class="py-3"></div>
+     <div id="nos" class="bg-ryf py-4">
+      <h2 class="text-center display-3 pt-4 pb-2 mb-0 text-barlow titulo-animado">
+        ¿SOBRE NOSOTROS?
+      </h2>
+      <p class="px-5 text-barlowc texto-fade description text-center pt-4">Desde el 2017 a la fecha, hemos gestionado más de 5.000 siniestros en ciudades como la Serena, Coquimbo, Ovalle, Valparaíso, Villa Alemana, Rancagua, Talca, Curicó, Buin, San Bernardo, Concepción, Temuco, entre otras.</p>
+      <p class="px-5 text-barlowc texto-fade description text-center pt-2">Son cientos las comunidades a lo largo de Chile que han comprobado nuestra gestión Real y por sobre todo, la transparencia de nuestra gestión.</p>
+     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
