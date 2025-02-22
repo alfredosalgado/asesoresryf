@@ -300,3 +300,7 @@
   -webkit-text-fill-color: transparent;
 }
 
+html, body {
+  overflow-x: hidden; /* Evita el desplazamiento horizontal */
+}
+
