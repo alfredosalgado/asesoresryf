@@ -78,7 +78,7 @@ document.querySelectorAll('.counter-box').forEach(counterBox => observer.observe
 
 // main.js
 document.querySelector('.whatsapp-btn').addEventListener('click', function() {
-  const phone = '56920700893'; // Número de teléfono
+  const phone = '56955310518'; // Número de teléfono
   const message = 'Hola, estoy interesado en más información.'; // Mensaje predefinido
   window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, '_blank');
 });

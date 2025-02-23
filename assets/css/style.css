@@ -304,3 +304,7 @@ html, body {
   overflow-x: hidden; /* Evita el desplazamiento horizontal */
 }
 
+.he {
+  height: 15rem;
+}
+
