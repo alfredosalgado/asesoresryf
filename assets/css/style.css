@@ -205,7 +205,7 @@
 }
 
 .bg-seguro {
-  background-image: url(/assets/img/seguro.webp);
+  background-image: url("../img/seguro.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
