@@ -308,3 +308,21 @@ html, body {
   height: 15rem;
 }
 
+.btn-agenda {
+  display: inline-block;
+  background-color: #25D366; /* Color de WhatsApp */
+  color: white;
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-agenda:hover {
+  background-color: #128C7E; /* Color más oscuro al pasar el mouse */
+  transform: scale(1.05); /* Pequeño efecto de agrandamiento */
+}
+
+
