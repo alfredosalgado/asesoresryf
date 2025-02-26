@@ -76,11 +76,19 @@ const observer = new IntersectionObserver((entries) => {
 document.querySelectorAll('.counter-box').forEach(counterBox => observer.observe(counterBox));
 
 
-// main.js
-document.querySelector('.whatsapp-btn').addEventListener('click', function() {
-  const phone = '56955310518'; // Número de teléfono
-  const message = 'Hola, estoy interesado en más información.'; // Mensaje predefinido
-  window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, '_blank');
+document.addEventListener("DOMContentLoaded", function () {
+  const btn = document.querySelector('.whatsapp-btn');
+
+  if (btn) {
+    btn.addEventListener('click', function (event) {
+      event.preventDefault(); // Evita que el navegador siga el enlace `href`
+      const phone = '56955310518'; // Número de teléfono
+      const message = 'Hola, estoy interesado en más información.';
+      window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, '_blank');
+    });
+  } else {
+    console.error("No se encontró el botón de WhatsApp en el DOM.");
+  }
 });
 
 
